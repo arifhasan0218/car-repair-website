@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+*{
+    font-family: montserrat;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.section-header{
+    margin-bottom: 40px;
+}
+
+.section-header h2{
+    color: #08194a;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.section-header h2 span{
+    color: #e53f29;
+}
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-brand{
+    color: #08194a;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand span{
+    color: #e53f29;
+}
+
+.section-padding{
+    padding: 80px 0;
+}
+.highlight{
+    color: #e53f29;
+}
+.w-100{
+    height: 100vh;
+}
+
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
+}
+.carousel{
+    background-image: url('img/home.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    margin-top: 25px;
+    color: #08194a;
+    font-weight: 700;
+    text-align: left;
+}
+
+.carousel-caption h5 span{
+    color: #e53f29;
+}
+
+.carousel-caption p{
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #08194a;
+    text-align: left;
+}
+
+
+.carousel-caption a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #08194a;
+    padding: 5px 20px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+/* ***********************************************************************************************
+                                            About Us section CSS 
+************************************************************************************************ */
+
+.img-area img{
+    width: 100% !important;
+}
+
+.about-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #08194a;
+}
+
+.about-text h2 span{
+    color: #e53f29;
+}
+.about-text .btn{
+    color: #fff;
+    background-color: #08194a;
+}
+
+/* ***********************************************************************************************
+                                            Singel services section CSS 
+************************************************************************************************ */
+.singel-services{
+    background: #08194a;
+    color: #fff;
+    padding: 30px 15px;
+}
+
+.singel-services i{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.singel-services h2{
+    font-family: bebas neue;
+}
+
+/* ***********************************************************************************************
+                                            Choose us section CSS 
+************************************************************************************************ */
+
+.choose-img img{
+    width: 100%;
+}
+
+.singel-box{
+    padding: 20px;
+}
+
+.singel-box i{
+    font-size: 35px;
+    color: #e53f29;
+    font-size: 35px;
+}
+
+.singel-box h2{
+    color: #08194a;
+    font-family: bebas neue;
+}
+
+.testimonial .col-lg-4 img{
+    width: 200px;
+}
+
+/* ***********************************************************************************************
+                                            Testimonial section CSS 
+************************************************************************************************ */
+
+.img-box{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+    overflow: hidden;
+    border: 3px solid #e53f29;
+}
+
+.img-box img{
+    width: 100% !important;
+}
+
+.singel-clients{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    padding: 30px 15px;
+}
+
+.singel-clients h2{
+    color: #08194a;
+    font-family: bebas neue;
+}
+
+.singel-clients h5{
+    color: #08194a;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.singel-clients span{
+    color: #e53f29;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* ***********************************************************************************************
+                                            Contact section CSS 
+************************************************************************************************ */
+.left-contact{
+    background: #08194a;
+    padding: 60px;
+    color: #fff;
+}
+
+.left-contact h3{
+    font-family: bebas neue;
+    margin-bottom: 20px;
+}
+
+label{
+    font-family: bebas neue;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.contact .btn{
+    background-color: #08194a;
+    color: #fff;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+/* ***********************************************************************************************
+                                            footer section CSS 
+************************************************************************************************ */
+
+footer{
+    background-color: #08194a;
+    padding: 35px 0;
+    color: #fff;
+
+}
+footer i{
+    color: #fff;
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+/* ***********************************************************************************************
+                                            Responsive CSS
+************************************************************************************************ */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .about-text h2{
+        margin: 20px 0;
+    }
+
+    .singel-services{
+        margin-bottom: 30px;
+    }
+
+    .singel-box{
+        margin-bottom: 30px;
+    }
+
+    .singel-clients{
+        margin-bottom: 30px;
+
+    }
+
+    .left-contact{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .carousel-caption{
+        bottom: 100px;
+    }
+
+    .carousel-caption h5{
+        font-size: 20px;
+    }
+
+    .carousel-caption p{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .carousel-caption a{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .about-text h2{
+        font-size: 30px;
+        margin: 15px 0;
+    }
+
+    .about-text p{
+        font-size: 14px;
+    }
+
+    .section-header h2{
+        font-size: 30px;
+    }
+
+    .section-header p{
+        font-size: 14px;
+    }
+
+    .singel-box{
+        margin-bottom: 30px;
+    }
+
+    .singel-clients{
+        margin-bottom: 30px;
+    }
+
+    .singel-services{
+        margin-bottom: 30px;
+    }
+
+    .left-contact{
+        text-align: center;
+    }
+}
